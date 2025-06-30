@@ -2,16 +2,16 @@
 .calculator {
     width: 350px;
     margin: 0 auto;
-    border: 1px solid #413939;
+    border: 1px solid black;
     padding: 10px;
     border-radius: 5px;
-    background-color: gainsboro;
+    background-color: rgb(220, 215, 215);
+    font-family: 'Times New Roman', Times, serif;
     
 }
 p{
     text-align: center;
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: bold;
     border: black;
@@ -33,7 +33,7 @@ p{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
 }
-  
+
 button {
     padding: 10px;
     font-size: 16px;
