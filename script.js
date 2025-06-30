@@ -73,7 +73,7 @@ function handleKeyboardInput(event) {
     event.preventDefault();
     calculate();
   }
-  // Clear (Escape, Delete, or c/C)
+  // Clear display (Escape, Delete, or C)
   else if (key === 'Escape' || key === 'Delete' || key.toLowerCase() === 'c') {
     clearDisplay();
   }
